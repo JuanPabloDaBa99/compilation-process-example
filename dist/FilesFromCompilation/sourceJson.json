@@ -1,0 +1,62 @@
+{
+    "classes": [
+        {
+            "name": "AnimalEnum",
+            "type": "Enumerator",
+            "contains": [
+                {
+                    "name": "DOG",
+                    "position": 0
+                },
+                {
+                    "name": "CAT",
+                    "position": 1
+                },
+                {
+                    "name": "FISH",
+                    "position": 2
+                }
+            ]
+        },
+        {
+            "name": "LanguageEnum",
+            "type": "Enumerator",
+            "contains": [
+                {
+                    "name": "SPANISH",
+                    "position": 0
+                },
+                {
+                    "name": "ENGLISH",
+                    "position": 1
+                },
+                {
+                    "name": "GERMAN",
+                    "position": 2
+                },
+                {
+                    "name": "ITALIAN",
+                    "position": 3
+                },
+                {
+                    "name": "FRENCH",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "name": "WeirdGroup",
+            "type": "Group",
+            "contains": [
+                {
+                    "name": "AnimalEnum",
+                    "position": 0
+                },
+                {
+                    "name": "LanguageEnum",
+                    "position": 1
+                }
+            ]
+        }
+    ]
+}

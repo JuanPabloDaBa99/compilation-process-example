@@ -1,0 +1,33 @@
+[
+    {
+        "name": "AnimalEnum",
+        "type": "Enumerator",
+        "startNumber": 0,
+        "contains": [
+            "DOG",
+            "CAT",
+            "FISH"
+        ]
+    },
+    {
+        "name": "LanguageEnum",
+        "type": "Enumerator",
+        "startNumber": 0,
+        "contains": [
+            "SPANISH",
+            "ENGLISH",
+            "GERMAN",
+            "ITALIAN",
+            "FRENCH"
+        ]
+    },
+    {
+        "name": "WeirdGroup",
+        "type": "Group",
+        "startNumber": 0,
+        "contains": [
+            "AnimalEnum",
+            "LanguageEnum"
+        ]
+    }
+]
